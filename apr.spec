@@ -1,4 +1,3 @@
-
 %define aprver 1
 
 Summary: Apache Portable Runtime library
@@ -24,9 +23,9 @@ Summary: APR library development kit
 Requires: apr = %{version}
 
 %description devel
-This package provides the support files which can be used to 
+This package provides the support files which can be used to
 build applications using the APR library.  The mission of the
-Apache Portable Runtime (APR) is to provide a free library of 
+Apache Portable Runtime (APR) is to provide a free library of
 C data structures and routines.
 
 %prep
@@ -97,4 +96,3 @@ rm -rf $RPM_BUILD_ROOT
 
 * Tue Jun 22 2004 Graham Leggett <minfrin@sharp.fm> 1.0.0-1
 - derived from Fedora Core apr.spec
-
